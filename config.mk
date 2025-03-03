@@ -1,10 +1,10 @@
 # slock version
-VERSION = 1.4
+VERSION = 1.5
 
 # Customize below to fit your system
 
 # paths
-PREFIX=/usr
+PREFIX = /usr/local
 MANPREFIX = ${PREFIX}/share/man
 
 X11INC = /usr/X11R6/include
@@ -27,6 +27,3 @@ COMPATSRC = explicit_bzero.c
 #CPPFLAGS = -DVERSION=\"${VERSION}\" -D_BSD_SOURCE -D_NETBSD_SOURCE
 # On OpenBSD set COMPATSRC to empty
 #COMPATSRC =
-
-# compiler and linker
-CC = cc
